@@ -1,0 +1,30 @@
+:root {
+    --color-white: #ffffff;
+    --color-teal: #129e9a;
+    --color-grey: #323333;
+    --color-lavender: #babadf;
+    --color-very-peri: #6667ab;
+    --color-light-teal: #c3dbda;
+    --color-pearl: #fff7ee;
+    --color-blush: #efcec4;
+  
+    --font-fira-light: 'Fira Sans', sans-serif;
+    --font-fira-medium: 'Fira Sans', sans-serif;
+    --font-fira-bold: 'Fira Sans', sans-serif;
+    --font-plex-mono: 'IBM Plex Mono', monospace;
+    --font-plex-bold: 'IBM Plex Mono', monospace;
+    --font-tan-nimbus: 'TAN Nimbus', serif;
+  }
+  
+  html, body {
+    margin: 0;
+    font-family: var(--font-fira-medium);
+    background-color: var(--color-pearl);
+    color: var(--color-grey);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
