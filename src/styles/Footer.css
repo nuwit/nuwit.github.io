@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--color-very-peri); /* Adjust this color as needed */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }

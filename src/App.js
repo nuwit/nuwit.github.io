@@ -5,6 +5,7 @@ import Sponsors from './pages/Sponsors';
 import Calendar from './pages/Calendar';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import './styles/global.css'; 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
