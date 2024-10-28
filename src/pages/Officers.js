@@ -17,11 +17,16 @@ function Officers() {
       }, []);
 
     return (
-        <div className="officer-grid">
-            {officers.map((officer, index) => (
-                <Officer key={index} officer={officer} />
-        ))}
-      </div>
+        <div>
+            <div className="officer-title">
+                <h1>LEARN ABOUT THE LEADERSHIP</h1>
+            </div>
+            <div className="officer-grid">
+                {officers.map((officer, index) => (
+                    <Officer key={index} officer={officer} />
+                ))}
+            </div>
+        </div>
     );
   }
   
