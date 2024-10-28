@@ -1,0 +1,65 @@
+#heading {
+    background-color: #129e9a;
+    color: white;
+    padding: 60px 0;
+  }
+  
+  #headerwrap {
+    background-color: #323333;
+    color: #ffffff;
+    padding: 60px 0;
+  }
+  
+  #mission, #meetings {
+    padding: 60px 0;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  .code-editor {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .top-bar .control .button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+  }
+  
+  .top-bar .control .red { background-color: #ff5f57; }
+  .top-bar .control .yellow { background-color: #ffbd2e; }
+  .top-bar .control .green { background-color: #28c840; }
+  
+  .file-path {
+    color: #888888;
+    margin-left: 10px;
+    display: inline-block;
+  }
+  
+  .code {
+    margin-top: 20px;
+  }
+  
+  .code .comment {
+    color: #6a9955;
+  }
+  
+  .code .selector {
+    color: #569cd6;
+  }
+  
+  .code .prop {
+    color: #9cdcfe;
+  }
+  
+  .indent {
+    margin-left: 20px;
+  }
