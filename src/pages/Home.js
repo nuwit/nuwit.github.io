@@ -1,7 +1,12 @@
-import React from 'react';
 import '../styles/Home.css';
+import { useEffect } from 'react';
+import React, { useState } from 'react';
 
 function Home() {
+    useEffect(() => {
+        document.title = "NUWIT | Home";
+      }, []);
+      
   return (
     <div>
       {/* Heading Section */}
