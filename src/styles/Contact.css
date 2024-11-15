@@ -1,0 +1,45 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f0f8ff; /* Optional: change this to a NUWIT color */
+  }
+  
+  .contact-heading {
+    font-size: 2rem;
+    color: #323333; /* Nuwit Grey */
+  }
+  
+  .contact-description {
+    font-size: 1rem;
+    color: #6667ab; /* Very Peri */
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .contact-link {
+    font-size: 1rem;
+    color: #129e9a; /* Nuwit Teal */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Space between icon and text */
+  }
+  
+  .contact-link i {
+    font-size: 1.25rem; /* Icon size */
+  }
+  
+  .contact-link:hover {
+    color: #babadf; /* Lavender on hover */
+  }
