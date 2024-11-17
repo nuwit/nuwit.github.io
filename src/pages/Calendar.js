@@ -84,7 +84,7 @@ function CalendarPage() {
       tileContent={({ date, view }) => {
         if (view === 'month') {
           const event = events.find(event => event.date === date.toISOString().split('T')[0]);
-          return event ? <div className="event-indicator">{event.title}</div> : null;
+          return event ? <div className="event-indicator"></div> : null;  // Just show a dot or marker
         }
         return null;
       }}
@@ -94,6 +94,7 @@ function CalendarPage() {
       }}
     />
   );
+  
 
   return (
     <div className='whole-calendar'>
