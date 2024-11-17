@@ -16,10 +16,9 @@ function CalendarPage() {
   const events = [
     { title: 'Halloween Movie Night', date: '2024-10-29', time: '7-8 pm', location: 'Richards Hall, Room 300', description: 'Tired of studying for midterms and looking for a fun way to relax? Get into the spooky spirit and join us to watch a halloween movie! Vote for the movie on the slack channel !! Snacks and candy will be provided! 🎃 👻 🍫' },
     { title: 'Professional Development Hosted by Epic Hire', date: '2024-11-05', time:'7-8 pm', location: 'Richards Hall, Room 300', description: '' },
-    { title: 'NUWIT x HackBeanpot Collab', date: '2024-11-10', time: '12-2 pm', location: '', description: '' },
     { title: 'NUWIT x Break Through Tech AI at MIT', date: '2024-11-12', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
-    { title: 'Optum/UHG Tech Talk', date: '2024-11-19', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
-    { title: 'Student Presentation Night', date: '2024-12-03', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
+    { title: 'Optum/UHG Tech Talk', date: '2024-11-19', time: '7-8 pm', location: 'Richards Hall, Room 300', description: 'Are you interested in learning about co-op opportunities and daily life at Optum at the United Health Group? Join us to learn more about the company and what they do! Stop by to get free food and merch!' },
+    { title: 'Letter to your 2025 Self + Networking', date: '2024-12-03', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
   ];
 
   const handleViewToggle = () => {
@@ -40,7 +39,8 @@ function CalendarPage() {
   };
 
   const formatDate = (dateString) => {
-    const date = new Date(dateString);
+    const [year, month, day] = dateString.split('-');
+    const date = new Date(year, month - 1, day); // Month is zero-based in JavaScript Date
     return date.toLocaleDateString("en-US", {
       weekday: "long",
       month: "long",
@@ -96,10 +96,13 @@ function CalendarPage() {
   );
 
   return (
+    <div className='whole-calendar'>
+    <div className="calendar-title">
+        <h1>CALENDAR</h1>
+      </div> 
     <div className="calendar-page">
       <div className="header">
-        <h2>Calendar</h2>
-        <div className="view-toggle">
+           <div className="view-toggle">
           <label className="toggle-switch">
             <input type="checkbox" onChange={handleViewToggle} checked={viewMode === 'calendar'} />
             <span className="slider"></span>
@@ -122,6 +125,7 @@ function CalendarPage() {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 }

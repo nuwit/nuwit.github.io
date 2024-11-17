@@ -1,65 +1,102 @@
-#heading {
-    background-color: #129e9a;
-    color: white;
-    padding: 60px 0;
-  }
-  
-  #headerwrap {
-    background-color: #323333;
-    color: #ffffff;
-    padding: 60px 0;
-  }
-  
-  #mission, #meetings {
-    padding: 60px 0;
-  }
-  
-  .centered {
-    text-align: center;
-  }
-  
-  .code-editor {
-    background-color: #2b2b2b;
-    padding: 20px;
-    border-radius: 8px;
-    color: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .top-bar .control .button {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 4px;
-  }
-  
-  .top-bar .control .red { background-color: #ff5f57; }
-  .top-bar .control .yellow { background-color: #ffbd2e; }
-  .top-bar .control .green { background-color: #28c840; }
-  
-  .file-path {
-    color: #888888;
-    margin-left: 10px;
-    display: inline-block;
-  }
-  
-  .code {
-    margin-top: 20px;
-  }
-  
-  .code .comment {
-    color: #6a9955;
-  }
-  
-  .code .selector {
-    color: #569cd6;
-  }
-  
-  .code .prop {
-    color: #9cdcfe;
-  }
-  
-  .indent {
-    margin-left: 20px;
-  }
+.home-container {
+  align-items: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.home-title {
+  width: 100%;
+  background-color: var(--color-teal); 
+  color: white; 
+  text-align: center;
+  padding: 20px 0; 
+  margin-bottom: 20px;
+}
+
+.home-title h1 {
+  margin: 0;
+  font-size: 2em; 
+  font-weight: bold;
+  font-family: var(--font-plex-bold);
+}
+
+.home-description {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.code-section {
+  background-color: #323333;
+  color: #fff7ee;
+  padding: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.code-section pre {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+.mission-statement {
+  background-color: var( --color-light-teal);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mission-statement h2 {
+  color: #129e9a;
+}
+
+.mission-statement p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.join-us {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.join-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.join-us-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail-item i {
+  font-size: 24px;
+  color: #129e9a;
+}
+
+.detail-item span {
+  font-size: 1.2rem;
+}

@@ -1,3 +1,12 @@
+.calendar-title {
+  width: 100%;
+  background-color: var(--color-teal); 
+  color: white; 
+  text-align: center;
+  padding: 20px 0; 
+  margin-bottom: 20px;
+}
+
 .calendar-page {
     padding: 2rem;
   }
@@ -15,7 +24,6 @@
     margin-left: auto; 
   }
   
-  /* Toggle Switch Style */
 .toggle-switch {
     position: relative;
     display: inline-block;
