@@ -81,30 +81,39 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    align-items: center;
+  }
+
+  .events-list h2 {
+    width: 100%;
+    background-color: var(--color-blush); 
+    color: white; 
+    text-align: center;
+    padding: 20px 0; 
+    margin-bottom: 20px;
   }
   
   .event-item {
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-light-teal);
+    min-width: 80%;
+    max-width: 80%;
   }
   
   .event-indicator {
-    color: #ff6347; /* Small red dot to indicate events on calendar */
+    color: #ff6347; 
     font-size: 1.2rem;
     position: absolute;
     bottom: 5px;
     right: 5px;
   }
 
-
-
-
-  /* Base styling for the calendar */
 .react-calendar {
     width: 90%;
     height: 400px;
-    color: #323333;
+    color: var(--color-blush);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -127,29 +136,24 @@
     transition: background-color 0.3s;
   }
   
-  /* Highlight dates with events */
   .react-calendar__tile--hasEvent {
-    background-color: #c3dbda; /* Light teal background for event days */
+    background-color: var(--color-light-teal); 
     color: #323333;
     font-weight: bold;
     border: 2px solid #129e9a;
   }
   
   .react-calendar__tile--active {
-    background-color: var(--color-very-peri); /* Very Peri for active date */
+    background-color: var(--color-very-peri);
     color: #ffffff;
   }
   
-  /* Hover effect */
   .react-calendar__tile:hover {
-    background-color: var(--color-blush); /* Blush color on hover */
+    background-color: var(--color-blush); 
     color: #323333;
     cursor: pointer;
   }
 
-
-
-  /* Modal overlay and content styling */
 .modal-overlay {
     position: fixed;
     top: 0;

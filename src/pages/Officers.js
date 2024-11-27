@@ -54,7 +54,8 @@ function Officers() {
   
         {isOpen && (
           <div className="popup">
-            <button onClick={togglePopup}>Close</button>
+            <div className='popup-content' onClick={(e) => e.stopPropagation()}>
+            <button className='close-button' onClick={togglePopup}>x</button>
             <h4>{officer.name}</h4>
             <p>
               <a href={officer.email} target="_blank" rel="noopener noreferrer">Email</a>
@@ -68,6 +69,7 @@ function Officers() {
           <p className="modal-description"><b>Favorite Study Spot: </b>{officer.funFacts.favoriteStudySpot}</p>
           <p className="modal-description"><b>Bucket List Item: </b>{officer.funFacts.bucketListItem}</p> 
           <p className="modal-description"><b>Go to Study Snack: </b>{officer.funFacts.goToStudySnack}</p>
+        </div>
         </div>
         )}
       </div>
