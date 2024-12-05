@@ -26,6 +26,7 @@ function CalendarPage() {
   };
 
   const handleDateClick = (date) => {
+    setSelectedDate(date); 
     const event = events.find(event => event.date === date.toISOString().split('T')[0]);
     if (event) {
       setSelectedEvent(event);
@@ -76,7 +77,7 @@ function CalendarPage() {
       ))}
     </div>
   );
-
+  
   const renderCalendarView = () => (
     <Calendar
       onClickDay={handleDateClick}
