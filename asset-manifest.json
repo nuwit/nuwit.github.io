@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.050efdbf.css",
+    "main.js": "/static/js/main.2729621c.js",
+    "static/js/453.a220f5cc.chunk.js": "/static/js/453.a220f5cc.chunk.js",
+    "static/media/sabine.jpg": "/static/media/sabine.5c584d547913247229fb.jpg",
+    "static/media/cathreen.png": "/static/media/cathreen.027c9a3a48744f4ee20f.png",
+    "static/media/esha.jpg": "/static/media/esha.d0865094847a1b943702.jpg",
+    "static/media/diya.jpg": "/static/media/diya.fe0a873e9366abf8fd2f.jpg",
+    "static/media/deekshita.jpg": "/static/media/deekshita.5b8a1383b950839c6e08.jpg",
+    "static/media/nandini.jpg": "/static/media/nandini.56b2f56c1a1668e79215.jpg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/rebecca.jpg": "/static/media/rebecca.bce62a1feeec8eff14a3.jpg",
+    "static/media/logo.png": "/static/media/logo.be35207bd73fde16a8db.png",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/paula.jpeg": "/static/media/paula.4092df22c85be350d347.jpeg",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/anusha.jpg": "/static/media/anusha.5fc164ed054808046f9f.jpg",
+    "static/media/hubspot_logo.png": "/static/media/hubspot_logo.3bfa842df3b5a78d9cac.png",
+    "static/media/ukg_logo.png": "/static/media/ukg_logo.17065fb90114b3dfd866.png",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/stripe_logo.png": "/static/media/stripe_logo.8825b59524139a91dfd0.png",
+    "static/media/verisk_logo.png": "/static/media/verisk_logo.e2bd7532af45bbb06c3a.png",
+    "static/media/draftkings_logo.svg": "/static/media/draftkings_logo.6de090a8d5d1959bfe017c7cf7f0f821.svg",
+    "static/media/akamai_logo.png": "/static/media/akamai_logo.e09d1a0bcc62feb37d2c.png",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/index.html",
+    "main.050efdbf.css.map": "/static/css/main.050efdbf.css.map",
+    "main.2729621c.js.map": "/static/js/main.2729621c.js.map",
+    "453.a220f5cc.chunk.js.map": "/static/js/453.a220f5cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.050efdbf.css",
+    "static/js/main.2729621c.js"
+  ]
+}
