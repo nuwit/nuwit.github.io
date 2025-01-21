@@ -16,6 +16,7 @@ function Home() {
 
       <div className="home-description">
         <p>
+          THIS WORKS
           Northeastern University Women in Technology (NUWIT) is an undergraduate organization
           supporting women in Computer and Data Science. We create opportunities to connect, 
           learn, and grow together in a supportive community.
