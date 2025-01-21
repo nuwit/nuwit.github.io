@@ -25,7 +25,7 @@ function Sponsors() {
     ],
     bronze: [
     ]
-  };
+  }; 
 
   const renderSponsors = (tier, sponsors) => (
     <div className={`sponsor-tier ${tier}`}>
