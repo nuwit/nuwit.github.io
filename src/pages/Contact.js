@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import '../styles/Contact.css';
+import { InstagramEmbed } from 'react-social-media-embed';
 
 function Contact() {
   useEffect(() => {
@@ -8,6 +9,7 @@ function Contact() {
   }, []);
 
   return (
+    <div className='parent-container'>
     <div className="contact-container">
       <h1 className="contact-heading">Get in Touch with NUWIT</h1>
       <p className="contact-description">
@@ -33,7 +35,11 @@ function Contact() {
           <i className="fas fa-envelope-open-text" /> Join Our Email List
         </a>
       </div>
-    </div>
+      </div>
+      <div className="instagram-embed">
+        <InstagramEmbed url="https://www.instagram.com/nuwomenintech/" />
+      </div>
+      </div>
   );
 }
 
