@@ -3,17 +3,22 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    background-color: #f0f8ff; /* Optional: change this to a NUWIT color */
+    background-color: #f0f8ff;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 15px;
   }
   
   .contact-heading {
     font-size: 2rem;
-    color: #323333; /* Nuwit Grey */
+    color: #323333; 
   }
   
   .contact-description {
     font-size: 1rem;
-    color: #6667ab; /* Very Peri */
+    color: #6667ab; 
     margin-bottom: 1rem;
     text-align: center;
   }
@@ -42,4 +47,12 @@
   
   .contact-link:hover {
     color: #babadf; /* Lavender on hover */
+  }
+
+  .instagram-embed {
+    width: 60%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
