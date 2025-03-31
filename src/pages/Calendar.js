@@ -21,17 +21,19 @@ function CalendarPage() {
     { title: 'Letter to your 2025 Self + Networking', date: '2024-12-03', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
     { title: 'Welcome Meeting - Bingo Night + Info Session', date: '2025-01-14', time: '7-8 pm', location: 'Richards Hall, Room 300', description: 'Join us for a fun night of snacks and bingo while learning about NUWIT and getting to know others in the club! There will be an opportunity to win prizes as well!' },
     { title: 'Center for Inclusive Computing - Hosted by  Carla Brodley', date: '2025-01-21', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
-    { title: 'Tech Panel', date: '2025-01-28', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
+    { title: 'Coffee Chat with Alison Joyce - Recruiter from DraftKings', date: '2025-01-28', time: '2-5 pm', location: 'Richards Hall, Room 300', description: '' },
+    { title: 'Shaping your Career Path', date: '2025-01-28', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
     { title: 'HubSpot Tech Talk', date: '2025-02-04', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
     { title: 'DraftKings Tech Talk', date: '2025-02-11', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
+    { title: 'Verisk Lunch \'N Learn: Catastrophe Modeling - Transforming Risk', date: '2025-02-18', time: '12-1 pm', location: 'Curry Student Center, Room 344', description: '' },
     { title: 'Valentines Day Mocktail Social', date: '2025-02-18', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
+    { title: 'NUWIT x Rewriting the Code Networking Session', date: '2025-02-21', time: '6-7:30 pm', location: 'International Village Room 019', description: '' },
     { title: 'AI NU Hot Chocolate and Customize your GitHub Profile Event', date: '2025-03-11', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
     { title: 'KAGR Tech Talk', date: '2025-03-18', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
     { title: 'WEBSITE HACK DAY', date: '2025-03-22', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
-    { title: 'UKG Tech Talk', date: '2025-04-01', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
-    { title: 'NUWIT x Institute of Experiential AI Networking Event', date: '2025-04-08', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
-    { title: 'End of Year Social', date: '2025-04-15', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
-
+    { title: '“Cracking the Behavioral Interview” with Stripe', date: '2025-03-25', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
+    { title: 'DraftKings Company Visit', date: '2025-04-02', time: '1-3 pm', location: '222 Berkeley Street, 5th floor, Boston, MA 02116', description: 'Tour of the area by Alison Joyce and quick presentation on opportunities DraftKings has for internships/co-ops/full-time roles' },
+    { title: 'UKG Tech Talk', date: '2025-04-08', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
   ];
 
   const handleViewToggle = () => {
