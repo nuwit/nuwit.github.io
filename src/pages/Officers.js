@@ -94,7 +94,7 @@ function Officers() {
       },
     },
     {
-      name: "Esha Pandya",
+      name: "Cathreen Paul",
       photo: eshaPhoto,
       position: "Vice President",
       email: "mailto:pandya.e@northeastern.edu",
