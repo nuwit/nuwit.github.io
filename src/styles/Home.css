@@ -100,3 +100,23 @@
 .detail-item span {
   font-size: 1.2rem;
 }
+
+@media (max-width: 768px) {
+  .home-title h1 {
+    font-size: 1.5em;
+  }
+  .home-description,
+  .code-section,
+  .mission-statement,
+  .join-us {
+    padding: 20px 5px;
+    max-width: 100%;
+  }
+  .join-us-details {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .detail-item span {
+    font-size: 1rem;
+  }
+}
