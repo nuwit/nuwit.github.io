@@ -24,6 +24,7 @@ function Navbar() {
       <ul className={`nav-links${menuOpen ? ' open' : ''}`}>
         <li><Link to="/" onClick={handleLinkClick}>Home</Link></li>
         <li><Link to="/officers" onClick={handleLinkClick}>Officers</Link></li>
+        <li><Link to="/membership" onClick={handleLinkClick}>Membership</Link></li>
         <li><Link to="/sponsors" onClick={handleLinkClick}>Sponsors</Link></li>
         <li><Link to="/calendar" onClick={handleLinkClick}>Calendar</Link></li>
         <li><Link to="/contact" onClick={handleLinkClick}>Contact</Link></li>
