@@ -26,3 +26,16 @@
     margin: 0;
     font-size: 14px;
   }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 0;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .footer-links a {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+}

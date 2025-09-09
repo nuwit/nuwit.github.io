@@ -195,3 +195,31 @@
   .modal-content p {
     margin: 0.5rem 0;
   }
+
+@media (max-width: 768px) {
+  .calendar-title {
+    padding: 10px 0;
+    font-size: 1.2em;
+  }
+  .calendar-page {
+    padding: 1rem 0.5rem;
+  }
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .react-calendar {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+  }
+  .event-item {
+    min-width: 98vw;
+    max-width: 98vw;
+    padding: 0.5rem;
+  }
+  .modal-content {
+    padding: 1rem;
+    max-width: 95vw;
+  }
+}

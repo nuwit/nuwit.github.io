@@ -88,3 +88,22 @@
   .modal-links a:hover {
     color: #6667ab; 
   }
+
+@media (max-width: 768px) {
+  .officer-title h1 {
+    font-size: 1.2em;
+  }
+  .officer-grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 10px;
+  }
+  .officer img {
+    width: 70px;
+    height: 70px;
+  }
+  .popup-content {
+    padding: 1rem;
+    max-width: 95vw;
+  }
+}
