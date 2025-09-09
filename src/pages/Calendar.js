@@ -14,6 +14,8 @@ function CalendarPage() {
   const [selectedEvent, setSelectedEvent] = useState(null);
 
   const events = [
+    { title: 'Welcome Meeting - Bingo Night + Info Session', date: '2025-09-09', time: '7-8 pm', location: 'Richards Hall, Room 300', description: 'Come hang out with the NUWIT community and play Bingo. Meet new members, win prizes, and enjoy delicious food from Anna’s Taqueria Taco Bar!' },
+    { title: 'Fall Fest', date: '2025-09-02', time: '12-4pm', location: 'Near WV-H, table 541', description: 'Learn about the club, chat with members, and pick up some NUWIT stickers!' },
     { title: 'Halloween Movie Night', date: '2024-10-29', time: '7-8 pm', location: 'Richards Hall, Room 300', description: 'Tired of studying for midterms and looking for a fun way to relax? Get into the spooky spirit and join us to watch a halloween movie! Vote for the movie on the slack channel !! Snacks and candy will be provided! 🎃 👻 🍫' },
     { title: 'Professional Development Hosted by Epic Hire', date: '2024-11-05', time:'7-8 pm', location: 'Richards Hall, Room 300', description: '' },
     { title: 'NUWIT x Break Through Tech AI at MIT', date: '2024-11-12', time: '7-8 pm', location: 'Richards Hall, Room 300', description: '' },
