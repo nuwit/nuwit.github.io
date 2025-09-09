@@ -6,7 +6,6 @@ import cathreenPhoto from '../assets/eboard/cathreen.png';
 import deekshitaPhoto from '../assets/eboard/deekshita.jpg';
 import diyaPhoto from '../assets/eboard/diya.jpg';
 import kritikaPhoto from '../assets/eboard/kritika.jpg';
-import paulaPhoto from '../assets/eboard/paula.jpeg';
 import rebeccaPhoto from '../assets/eboard/rebecca.jpg';
 import sabinePhoto from '../assets/eboard/sabine.jpg';
 import ananyaPhoto from '../assets/eboard/ananya.jpg';
