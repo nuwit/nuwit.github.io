@@ -14,6 +14,11 @@ function CalendarPage() {
   const [selectedEvent, setSelectedEvent] = useState(null);
 
   const events = [
+    { title: 'Gecko Robotics Tech Talk', date: '2025-10-07', time: '7-8 pm', location: 'Richards Hall, Room 300', description: 'Hear about the career journey of a Gecko Robotics employee and the perks of working there!'},
+    { title: 'Mentor/ Mentee Mixer', date: '2025-09-25', time: '7-8 pm', location: 'Richards Hall, Room 226', description: 'NUWIT is launching its Mentor/Mentee program! Come to learn more about the program and how to get involved!' },
+    { title: 'UKG - Lunch N Learn', date: '2025-09-24', time: '11-1 pm', location: 'Curry Student Center, Room 340', description: 'Grab a bite, discover opportunities at UKG, and connect with their team!'},
+    { title: 'Verisk Tech Talk', date: '2025-09-23', time: '7-8 pm', location: 'Richards Hall, Room 300', description: 'Learn about navigating the corporate tech lifestyle and what doing a co-op at Verisk is like!' },
+    { title: 'Datadog Tech Talk', date: '2025-09-16', time: '6:30-7:30 pm', location: 'Richards Hall, Room 300', description: 'Curious about life at a fast-paced tech company? Join us to hear from a Datadog engineer and recruiter, and get career advice!' },
     { title: 'Welcome Meeting - Bingo Night + Info Session', date: '2025-09-09', time: '7-8 pm', location: 'Richards Hall, Room 300', description: 'Come hang out with the NUWIT community and play Bingo. Meet new members, win prizes, and enjoy delicious food from Anna’s Taqueria Taco Bar!' },
     { title: 'Fall Fest', date: '2025-09-02', time: '12-4pm', location: 'Near WV-H, table 541', description: 'Learn about the club, chat with members, and pick up some NUWIT stickers!' },
     { title: 'Halloween Movie Night', date: '2024-10-29', time: '7-8 pm', location: 'Richards Hall, Room 300', description: 'Tired of studying for midterms and looking for a fun way to relax? Get into the spooky spirit and join us to watch a halloween movie! Vote for the movie on the slack channel !! Snacks and candy will be provided! 🎃 👻 🍫' },
