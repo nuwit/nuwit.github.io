@@ -2,10 +2,8 @@ import { useEffect } from 'react';
 import '../styles/Sponsors.css';
 import verisk_logo from '../assets/sponsor_logos/verisk_logo.png';
 import ukg_logo from '../assets/sponsor_logos/ukg_logo.png';
-import hubspot_logo from '../assets/sponsor_logos/hubspot_logo.png';
 import draftkings_logo from '../assets/sponsor_logos/draftkings_logo.svg';
-import stripe_logo from '../assets/sponsor_logos/stripe_logo.png';
-import akamai_logo from '../assets/sponsor_logos/akamai_logo.png';
+
 
 function Sponsors() {
   useEffect(() => {
