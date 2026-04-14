@@ -59,6 +59,7 @@
 
 .mission-statement h2 {
   color: #129e9a;
+  font-family: var(--font-plex-bold);
 }
 
 .mission-statement p {
@@ -77,6 +78,7 @@
   font-size: 2.5rem;
   margin-bottom: 40px;
   font-weight: normal;
+  font-family: var(--font-plex-bold);
 }
 
 .join-us-details {

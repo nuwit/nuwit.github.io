@@ -11,7 +11,7 @@
     margin: 0 0 10px 0;
     font-size: 2em; 
     font-weight: bold;
-    font-family: var(--font-plex-regular);
+    font-family: var(--font-plex-bold);
 }
 
 .membership-title p {
@@ -37,8 +37,8 @@
 }
 
 .gold {
-    background: linear-gradient(135deg, #ffd700, #ffed4e);
-    border: 3px solid #ffd700;
+    background: linear-gradient(135deg, #ffd900, #ffd900);
+    border: 3px solid #ffd900;
 }
 
 .silver {
@@ -67,8 +67,17 @@
     align-items: start;
 }
 
+.members-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1.5rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    grid-column: 1 / -1;
+}
+
 .criteria-section,
-.benefits-section {
+.benefits-section,
+.members-section {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 1.5rem;
     border-radius: 10px;
@@ -76,7 +85,8 @@
 }
 
 .criteria-section h3,
-.benefits-section h3 {
+.benefits-section h3, 
+.members-section h3{
     margin: 0 0 1rem 0;
     font-size: 1.4em;
     color: #333;
@@ -86,14 +96,16 @@
 }
 
 .criteria-section ul,
-.benefits-section ul {
+.benefits-section ul,
+.members-section ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .criteria-section li,
-.benefits-section li {
+.benefits-section li,
+.members-section li {
     padding: 0.8rem 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     position: relative;
@@ -103,7 +115,8 @@
 }
 
 .criteria-section li:last-child,
-.benefits-section li:last-child {
+.benefits-section li:last-child,
+.members-section li:last-child {
     border-bottom: none;
 }
 
@@ -150,17 +163,20 @@
     }
     
     .criteria-section,
-    .benefits-section {
+    .benefits-section,
+    .members-section{
         padding: 1rem;
     }
     
     .criteria-section h3,
-    .benefits-section h3 {
+    .benefits-section h3,
+    .members-section h3{
         font-size: 1.2em;
     }
     
     .criteria-section li,
-    .benefits-section li {
+    .benefits-section li, 
+    .members-section li {
         font-size: 0.9rem;
         padding: 0.6rem 0;
         padding-left: 1.2rem;
