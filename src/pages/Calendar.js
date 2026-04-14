@@ -122,7 +122,7 @@ function CalendarPage() {
   return (
     <div className='whole-calendar'>
     <div className="calendar-title">
-        <h1>CALENDAR</h1>
+        <h1>Calendar</h1>
       </div> 
     <div className="calendar-page">
       <div className="header">
