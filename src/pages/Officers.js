@@ -2,14 +2,15 @@ import { useEffect } from 'react';
 import React, { useState } from 'react';
 import '../styles/Officers.css';
 import anushaPhoto from '../assets/eboard/anusha.jpg';
-import cathreenPhoto from '../assets/eboard/cathreen.png';
+import cathreenPhoto from '../assets/eboard/cathreen.jpg';
 import deekshitaPhoto from '../assets/eboard/deekshita.jpg';
 import diyaPhoto from '../assets/eboard/diya.jpg';
-import kritikaPhoto from '../assets/eboard/kritika.jpg';
 import rebeccaPhoto from '../assets/eboard/rebecca.jpg';
-import sabinePhoto from '../assets/eboard/sabine.jpg';
 import ananyaPhoto from '../assets/eboard/ananya.jpg';
 import dhruviPhoto from '../assets/eboard/dhruvi.jpg';
+import tanviPhoto from '../assets/eboard/tanvi.png';
+// TODO: swap for mia.jpg once her photo is in
+import placeholderPhoto from '../assets/eboard/placeholder.jpg';
 
 function Officers() {
   useEffect(() => {
@@ -80,23 +81,9 @@ const Officer = ({ officer }) => {
 
 const officers = [
   {
-    name: "Sabine Laurence",
-    photo: sabinePhoto,
-    position: "President",
-    email: "mailto:laurence.s@northeastern.edu",
-    linkedin: "https://www.linkedin.com/in/sabine-laurence",
-    funFacts: {
-      major: "Computer Science & Economics",
-      hometown: "San Jose, CA",
-      favoriteStudySpot: "Boston Public Library",
-      bucketListItem: "Visit all 7 continents",
-      goToStudySnack: "Popcorn",
-    },
-  },
-  {
     name: "Cathreen Paul",
     photo: cathreenPhoto,
-    position: "Vice President",
+    position: "President",
     email: "mailto:Paul.cat@northeastern.edu",
     linkedin: "https://www.linkedin.com/in/cathreenpaul/",
     funFacts: {
@@ -105,6 +92,20 @@ const officers = [
       favoriteStudySpot: "Random classrooms in Richards",
       bucketListItem: "Visit every state!",
       goToStudySnack: "Buldakkk!!",
+    },
+  },
+  {
+    name: "Dhruvi Kapadia",
+    photo: dhruviPhoto,
+    position: "Vice President",
+    email: "mailto:kapadia.dhr@northeastern.edu",
+    linkedin: "https://www.linkedin.com/in/dhruvi-kapadia/",
+    funFacts: {
+      major: "Computer Science",
+      hometown: "Mumbai, India",
+      favoriteStudySpot: "Orange couches in Snell Library",
+      bucketListItem: "Going to Italy and visiting every single museum",
+      goToStudySnack: "Strawberry Yogurt",
     },
   },
   {
@@ -150,17 +151,17 @@ const officers = [
     },
   },
   {
-    name: "Kritika Agarwal",
-    photo: kritikaPhoto,
+    name: "Tanvi Agarwal",
+    photo: tanviPhoto,
     position: "Tech & Web Chair",
-    email: "mailto:agarwal.krit@northeastern.edu",
-    linkedin: "https://www.linkedin.com/in/kritikaagarwal28/",
+    email: "mailto:agarwal.tanv@northeastern.edu",
+    linkedin: "https://www.linkedin.com/in/tanvi-agarwal-ta09/",
     funFacts: {
-      major: "Computer Science & Behavioral Neuroscience",
-      hometown: "Mclean, VA",
-      favoriteStudySpot: "Farmer's Horse Coffee",
-      bucketListItem: "Do the splits",
-      goToStudySnack: "Kettle Cooked Jalapeno Potato Chips",
+      major: "Computer Science",
+      hometown: "Kolkata, India",
+      favoriteStudySpot: "EXP",
+      bucketListItem: "Do a pull up",
+      goToStudySnack: "BBQ Lays",
     },
   },
   {
@@ -178,17 +179,18 @@ const officers = [
     },
   },
   {
-    name: "Dhruvi Kapadia",
-    photo: dhruviPhoto,
+    // TODO: fill in Mia's email, LinkedIn, photo and fun facts
+    name: "Mia Corfmat",
+    photo: placeholderPhoto,
     position: "Outreach Co-Chair",
-    email: "mailto:kapadia.dhr@northeastern.edu",
-    linkedin: "https://www.linkedin.com/in/dhruvi-kapadia/",
+    email: "mailto:",
+    linkedin: "",
     funFacts: {
-      major: "Computer Science",
-      hometown: "Mumbai, India",
-      favoriteStudySpot: "Orange couches in Snell Library",
-      bucketListItem: "Going to Italy and visiting every single museum",
-      goToStudySnack: "Strawberry Yogurt",
+      major: "TBD",
+      hometown: "TBD",
+      favoriteStudySpot: "TBD",
+      bucketListItem: "TBD",
+      goToStudySnack: "TBD",
     },
   },
   {

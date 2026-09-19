@@ -14,6 +14,13 @@ function CalendarPage() {
   const [selectedEvent, setSelectedEvent] = useState(null);
 
   const events = [
+    { title: 'UKG Lunch \'N Learn', date: '2026-10-13', time: '11-1 pm', location: 'TBD', description: 'Grab a bite, discover opportunities at UKG, and connect with their team! Merch will be available.' },
+    { title: 'Google Tech Talk - Collab w/ ColorStack & SHPE', date: '2026-10-13', time: '7-8 pm', location: 'East Village, Room 002', description: 'Join us, ColorStack, and SHPE to hear from Jessica Xu about her career at Google!' },
+    { title: 'TD Bank Tech Talk', date: '2026-10-06', time: '7-8 pm', location: 'East Village, Room 002', description: '' },
+    { title: 'Morse Tech Talk', date: '2026-09-29', time: '7-8 pm', location: 'East Village, Room 002', description: 'Hear from the Morse team - Molly, Tyler, Olivia Blier (Human Computer Interaction Engineer), Isabella Fisch (Data Scientist), and Grace Preston (Security Specialist) - about their work and career paths. Pizza will be provided!' },
+    { title: 'Datadog Tech Talk', date: '2026-09-22', time: '6:30-7:30 pm', location: 'East Village, Room 002', description: 'Curious about life at a fast-paced tech company? Join us to hear from Datadog software engineers Sophia and Sophie Alber. Light food and Datadog swag - play a game for a chance to win a t-shirt!' },
+    { title: 'Welcome Meeting', date: '2026-09-15', time: '7-8 pm', location: 'East Village, Room 002', description: 'Kick off the year with the NUWIT community! Come learn about the club, meet new members, and grab some NUWIT merch.' },
+    { title: 'Fall Fest', date: '2026-09-08', time: '12:30-4 pm', location: 'Krentzman Quad', description: 'Come learn about NUWIT!' },
     { title: 'Gecko Robotics Tech Talk', date: '2025-10-07', time: '7-8 pm', location: 'Richards Hall, Room 300', description: 'Hear about the career journey of a Gecko Robotics employee and the perks of working there!'},
     { title: 'Mentor/ Mentee Mixer', date: '2025-09-25', time: '7-8 pm', location: 'Richards Hall, Room 226', description: 'NUWIT is launching its Mentor/Mentee program! Come to learn more about the program and how to get involved!' },
     { title: 'UKG - Lunch N Learn', date: '2025-09-24', time: '11-1 pm', location: 'Curry Student Center, Room 340', description: 'Grab a bite, discover opportunities at UKG, and connect with their team!'},
@@ -62,18 +69,28 @@ function CalendarPage() {
   };
 
   const formatDate = (dateString) => {
+    if (dateString === 'TBD') return 'TBD';
     const [year, month, day] = dateString.split('-');
     const date = new Date(year, month - 1, day); // Month is zero-based in JavaScript Date
     return date.toLocaleDateString("en-US", {
       weekday: "long",
+      year: "numeric",
       month: "long",
       day: "numeric",
     });
   };
 
   const today = new Date();
-  const upcomingEvents = events.filter(event => new Date(event.date) >= today);
-  const pastEvents = events.filter(event => new Date(event.date) < today);
+  const upcomingEvents = events
+    .filter(event => event.date === 'TBD' || new Date(event.date) >= today)
+    .sort((a, b) => {
+      if (a.date === 'TBD') return 1; // undated events sit at the bottom
+      if (b.date === 'TBD') return -1;
+      return new Date(a.date) - new Date(b.date); // soonest first
+    });
+  const pastEvents = events
+    .filter(event => event.date !== 'TBD' && new Date(event.date) < today)
+    .sort((a, b) => new Date(b.date) - new Date(a.date)); // most recent first
 
   const renderEventsList = () => (
     <div className="events-list">
