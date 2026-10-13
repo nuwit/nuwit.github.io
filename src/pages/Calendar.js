@@ -14,9 +14,14 @@ function CalendarPage() {
   const [selectedEvent, setSelectedEvent] = useState(null);
 
   const events = [
-    { title: 'UKG Lunch \'N Learn', date: '2026-10-13', time: '11-1 pm', location: 'TBD', description: 'Grab a bite, discover opportunities at UKG, and connect with their team! Merch will be available.' },
+    { title: 'NUWIT x NEU Blockchain: Muriel Medard', date: '2026-11-12', time: '7-8 pm', location: 'International Village, Room 019', description: 'Co-hosted with NEU Blockchain! Join us for a talk with Muriel Medard, MIT professor and Co-Founder & CEO of Optimum.' },
+    { title: 'Sandbox x NUWIT Collab Event', date: '2026-11-03', time: '7-8 pm', location: 'East Village, Room 002', description: '' },
+    { title: 'DraftKings Tech Talk', date: '2026-10-27', time: '7-8 pm', location: 'East Village, Room 002', description: 'Hear from Alison Joyce about opportunities at DraftKings!' },
+    { title: 'Mentorship Mixer', date: '2026-10-22', time: '7-8 pm', location: 'East Village, Room 002', description: 'Come meet your mentors and mentees and connect with the NUWIT community!' },
+    { title: 'MathWorks Tech Talk', date: '2026-10-20', time: '7-8 pm', location: 'East Village, Room 002', description: 'Speakers TBD. Pizza will be provided!' },
+    { title: 'UKG Lunch \'N Learn', date: '2026-10-13', time: '11-1 pm', location: 'Curry Student Center, Room 433', description: 'Grab a bite, discover opportunities at UKG, and connect with their team! Merch will be available.' },
     { title: 'Google Tech Talk - Collab w/ ColorStack & SHPE', date: '2026-10-13', time: '7-8 pm', location: 'East Village, Room 002', description: 'Join us, ColorStack, and SHPE to hear from Jessica Xu about her career at Google!' },
-    { title: 'TD Bank Tech Talk', date: '2026-10-06', time: '7-8 pm', location: 'East Village, Room 002', description: '' },
+    { title: 'TD Bank Tech Talk', date: '2026-10-06', time: '7-8 pm', location: 'East Village, Room 002', description: 'Hear from Ramy about career paths and opportunities at TD Bank!' },
     { title: 'Morse Tech Talk', date: '2026-09-29', time: '7-8 pm', location: 'East Village, Room 002', description: 'Hear from the Morse team - Molly, Tyler, Olivia Blier (Human Computer Interaction Engineer), Isabella Fisch (Data Scientist), and Grace Preston (Security Specialist) - about their work and career paths. Pizza will be provided!' },
     { title: 'Datadog Tech Talk', date: '2026-09-22', time: '6:30-7:30 pm', location: 'East Village, Room 002', description: 'Curious about life at a fast-paced tech company? Join us to hear from Datadog software engineers Sophia and Sophie Alber. Light food and Datadog swag - play a game for a chance to win a t-shirt!' },
     { title: 'Welcome Meeting', date: '2026-09-15', time: '7-8 pm', location: 'East Village, Room 002', description: 'Kick off the year with the NUWIT community! Come learn about the club, meet new members, and grab some NUWIT merch.' },
