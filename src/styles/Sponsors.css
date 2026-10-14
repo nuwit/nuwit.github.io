@@ -60,6 +60,9 @@
   .sponsor-logo {
     width: 200px;
     height: auto;
+    /* keeps the stacked Datadog mark from towering over the wordmarks */
+    max-height: 105px;
+    object-fit: contain;
     margin-bottom: 1rem;
   }
   

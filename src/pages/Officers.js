@@ -7,10 +7,9 @@ import deekshitaPhoto from '../assets/eboard/deekshita.jpg';
 import diyaPhoto from '../assets/eboard/diya.jpg';
 import rebeccaPhoto from '../assets/eboard/rebecca.jpg';
 import ananyaPhoto from '../assets/eboard/ananya.jpg';
-import dhruviPhoto from '../assets/eboard/dhruvi.jpg';
+import dhruviPhoto from '../assets/eboard/dhruvi.png';
 import tanviPhoto from '../assets/eboard/tanvi.png';
-// TODO: swap for mia.jpg once her photo is in
-import placeholderPhoto from '../assets/eboard/placeholder.jpg';
+import miaPhoto from '../assets/eboard/mia.png';
 
 function Officers() {
   useEffect(() => {
@@ -99,7 +98,7 @@ const officers = [
     photo: dhruviPhoto,
     position: "Vice President",
     email: "mailto:kapadia.dhr@northeastern.edu",
-    linkedin: "https://www.linkedin.com/in/dhruvi-kapadia/",
+    linkedin: "https://www.linkedin.com/in/dhruvi-k/",
     funFacts: {
       major: "Computer Science",
       hometown: "Mumbai, India",
@@ -179,12 +178,12 @@ const officers = [
     },
   },
   {
-    // TODO: fill in Mia's email, LinkedIn, photo and fun facts
+    // TODO: fill in Mia's email and fun facts
     name: "Mia Corfmat",
-    photo: placeholderPhoto,
+    photo: miaPhoto,
     position: "Outreach Co-Chair",
     email: "mailto:",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/mia-corfmat/",
     funFacts: {
       major: "TBD",
       hometown: "TBD",

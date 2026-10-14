@@ -56,7 +56,7 @@ function Home() {
           </div>
           <div className="detail-item">
           <i className="fas fa-map-marker-alt" />
-            <span>Richards Hall 300</span>
+            <span>East Village 002</span>
           </div>
         </div>
       </div>
