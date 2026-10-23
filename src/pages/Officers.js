@@ -178,18 +178,18 @@ const officers = [
     },
   },
   {
-    // TODO: fill in Mia's email and fun facts
+    // TODO: fill in Mia's email
     name: "Mia Corfmat",
     photo: miaPhoto,
     position: "Outreach Co-Chair",
     email: "mailto:",
     linkedin: "https://www.linkedin.com/in/mia-corfmat/",
     funFacts: {
-      major: "TBD",
-      hometown: "TBD",
-      favoriteStudySpot: "TBD",
-      bucketListItem: "TBD",
-      goToStudySnack: "TBD",
+      major: "Computer Science & Cognitive Psychology",
+      hometown: "Sunnyvale, CA",
+      favoriteStudySpot: "ISEC",
+      bucketListItem: "Visit all 7 wonders of the world",
+      goToStudySnack: "Goldfish",
     },
   },
   {
